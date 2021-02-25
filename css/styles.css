@@ -1,0 +1,57 @@
+h1 {
+  font-family: "Stick", sans-serif;
+  font-size: 60px;
+  text-align: center;
+  display: block;
+  position: fixed;
+  top: 20px;
+  bottom: 40px;
+  margin-bottom: 200px;
+  left: 250px;
+  right: 250px;
+  color: #dce4c0;
+}
+
+h1:hover {
+  transition: ease-in-out;
+  color: #d3e0a4;
+}
+
+ul {
+  font-family: "Lato", sans-serif;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  /* background-color: #333; */
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+  color: #d3e0a4;
+  border: 2px solid #d3e0a4;
+}
+
+button .bio {
+  font-family: "Stick", sans-serif;
+  font-size: 60px;
+  text-align: center;
+  display: block;
+  position: absolute;
+  top: 20px;
+  margin-bottom: 200px;
+  left: 250px;
+  right: 250px;
+}
