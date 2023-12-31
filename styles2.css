@@ -5,8 +5,10 @@ body {
 }
 
 .container {
-  display: grid;
-  grid-template-columns: 1fr;
+  display: flex;
+  flex-direction: column;
+  margin: 1.5rem;
+  align-items: center;
 }
 
 /* Navigation Styles */
@@ -30,16 +32,13 @@ body {
   text-transform: uppercase;
 }
 
-.nav-link-wrapper {
-  height: 22px;
-  border-bottom: 1px solid transparent;
-  transition: border-bottom 0.5s;
-}
-
 .nav-link-wrapper a {
   color: #8a8a8a;
   text-decoration: none;
   transition: color 0.5s;
+  height: 22px;
+  border-bottom: 1px solid transparent;
+  transition: border-bottom 0.5s;
 }
 
 .nav-link-wrapper:hover {
@@ -52,28 +51,15 @@ body {
 
 /* Portfolio Styles */
 
-.portfolio-items-wrapper {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: auto;
-  height: 500px;
-}
-
-.portfolio-item-wrapper {
-  position: relative;
-  height: 100px;
-}
-
-.biographical-text {
-  text-align: center;
-}
-
-.third-img {
-  text-align: center;
+.section-1-bio {
+  display: flex;
+  flex-direction: row;
 }
 
 .para-text {
-  text-align: center;
+  font-size: large;
+  line-height: 2rem;
+  color: #8a8a8a;
 }
 
 h1 {
