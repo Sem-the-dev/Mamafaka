@@ -64,11 +64,11 @@ body {
 
 }
 
-.bio-image {
-  border-radius: 50%;
-
-
+.image-container {
+    border: solid 8px #474747;
+    padding: 1rem;
 }
+
 .para-text {
   font-size: large;
   line-height: 2rem;
@@ -81,6 +81,7 @@ body {
   color: #8a8a8a;
   font-size: xx-large;
   text-align: center;
+  margin-top: 7rem;
 }
 
 h1 {
